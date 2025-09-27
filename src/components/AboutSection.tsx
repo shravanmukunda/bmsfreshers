@@ -44,8 +44,8 @@ const AboutSection: React.FC = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            Step into a world of bold elegance. An exclusive night of music, style, and unforgettable moments — 
-            <span className="text-red-400 font-semibold"> designed for BMSCE Freshers and their circle.</span>
+            Step into a world of bold elegance. An exclusive evening of music, style, and unforgettable moments — 
+            <span className="text-red-400 font-semibold"> designed for Freshers and their circle.</span>
           </motion.p>
           
           <motion.div
@@ -69,7 +69,7 @@ const AboutSection: React.FC = () => {
             
             <div className="text-center p-6 bg-gradient-to-br from-gray-900 to-black border border-red-900 rounded-lg hover:border-red-600 transition-all duration-300">
               <div className="text-4xl mb-4 text-red-500">🌹</div>
-              <h3 className="text-xl font-semibold text-red-400 mb-2 font-orbitron">Memorable Night</h3>
+              <h3 className="text-xl font-semibold text-red-400 mb-2 font-orbitron">Memorable Evening</h3>
               <p className="text-gray-400 font-exo">Moments carved in crimson</p>
             </div>
           </motion.div>

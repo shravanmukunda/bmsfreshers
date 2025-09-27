@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
       >
-        {/* Geometric Logo */}
+        
 
         {/* Main Title */}
         <motion.div 
@@ -42,6 +42,7 @@ const HeroSection: React.FC = () => {
         >
           Freshers'25
         </motion.p>
+        <div className="h-px bg-gradient-to-r from-transparent via-red-600 to-transparent mb-16"></div>
 
         {/* Event Details Grid */}
         <motion.div 

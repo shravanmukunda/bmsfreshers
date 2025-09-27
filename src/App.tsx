@@ -5,7 +5,6 @@ import AboutSection from './components/AboutSection.tsx'
 import HighlightsSection from './components/HighlightsSection.tsx'
 import CountdownSection from './components/CountdownSection.tsx'
 import TicketsSection from './components/TicketsSection.tsx'
-import GallerySection from './components/GallerySection.tsx'
 import FAQSection from './components/FAQSection.tsx'
 import Footer from './components/Footer.tsx'
 
@@ -18,7 +17,6 @@ const App: React.FC = () => {
       <HighlightsSection />
       <CountdownSection />
       <TicketsSection />
-      <GallerySection />
       <FAQSection />
       <Footer />
     </div>

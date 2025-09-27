@@ -5,7 +5,7 @@ import type { Highlight } from '../types';
 const HighlightsSection: React.FC = () => {
   const highlights: Highlight[] = [
     { 
-      title: "800+ Elite Members", 
+      title: "500+ Elite Members", 
       desc: "Largest exclusive gathering", 
       icon: "👥",
       color: "bg-gray-900/50",

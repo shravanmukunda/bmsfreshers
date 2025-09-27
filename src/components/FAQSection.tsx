@@ -8,27 +8,27 @@ const FAQSection: React.FC = () => {
   const faqs: FAQ[] = [
     { 
       q: "What's the dress code?", 
-      a: "Smart casual to formal attire. Black and red theme encouraged. Sophisticated dress code reflects the exclusive nature of the gathering." 
+      a: "Smart casual party attire. Black and red theme encouraged. Sophisticated dress code reflects the exclusive nature of the gathering." 
     },
     { 
       q: "Do I need identification?", 
-      a: "Yes, valid college ID or government-issued ID is mandatory for entry. This ensures exclusive access for verified BMSCE students and guests." 
+      a: "Yes, valid ID is mandatory for entry. This ensures exclusive access for verified guests." 
     },
     { 
       q: "What are the event timings?", 
-      a: "Event begins at 2PM and continues into the night. Doors open at 1:30PM. Early arrivals receive priority access and seating." 
+      a: "Event begins at 2PM and continues into the night. Doors open at 1:30PM." 
     },
     { 
       q: "Can I bring guests from other institutions?", 
-      a: "Yes! The gathering welcomes BMSCE students and their distinguished guests. Guest passes available at standard pricing." 
+      a: "Yes! The gathering welcomes students and their distinguished guests. Guest passes available at standard pricing." 
     },
     { 
       q: "What's included with membership?", 
-      a: "Entry to all exclusive performances, welcome privilege, access to VIP areas, professional photography, and exclusive member gifts." 
+      a: "Entry to all exclusive performances, welcome privilege, and professional photography.." 
     },
     { 
       q: "Are refreshments available?", 
-      a: "Yes, Toyboy offers premium dining and beverages. Special event menu curated for our exclusive gathering throughout the evening." 
+      a: "Yes, First 75 early access members get a free Red Bull drink on entry" 
     }
   ];
 

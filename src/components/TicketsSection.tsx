@@ -7,29 +7,29 @@ const TicketsSection: React.FC = () => {
     { 
       name: "Early Bird", 
       status: "Limited Availability", 
-      price: "₹799",
+      price: "₹399",
       color: "bg-gray-900/50",
       glowColor: "",
       available: true,
-      features: ["Elite Entry", "Welcome Drink", "VIP Access"]
+      features: ["Elite Entry", "Full Access"]
     },
     { 
       name: "Standard", 
       status: "Coming Soon", 
-      price: "₹999",
+      price: "",
       color: "bg-gray-900/50",
       glowColor: "",
       available: false,
-      features: ["Standard Entry", "Event Access", "Refreshments"]
+      features: ["Elite Entry", "Full Access"]
     },
     { 
       name: "Last Chance", 
       status: "Final Phase", 
-      price: "₹1299",
+      price: "",
       color: "bg-gray-900/50",
       glowColor: "",
       available: false,
-      features: ["Last Chance", "Premium Seats", "Full Access"]
+      features: ["Elite Entry", "Full Access"]
     }
   ];
 

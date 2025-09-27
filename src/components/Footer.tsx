@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           <motion.a 
-            href="https://instagram.com/campuscartel" 
+            href="https://www.instagram.com/campuscartel_bmsce/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="card-minimal bg-gray-900/50 border border-red-600/50 rounded-lg px-6 py-4 flex items-center space-x-3"
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
           </motion.a>
           
           <motion.a 
-            href="https://wa.me/1234567890" 
+            href="https://wa.me/8792841557" 
             target="_blank" 
             rel="noopener noreferrer"
             className="card-minimal bg-gray-900/50 border border-red-600/50 rounded-lg px-6 py-4 flex items-center space-x-3"
