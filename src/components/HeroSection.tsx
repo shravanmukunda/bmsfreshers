@@ -15,7 +15,6 @@ const HeroSection: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
       >
-        
 
         {/* Main Title */}
         <motion.div 
@@ -71,19 +70,19 @@ const HeroSection: React.FC = () => {
         </motion.div>
 
         {/* CTA Button */}
-        <motion.button 
-          className="relative px-12 py-5 rounded-xl text-2xl font-extrabold text-white bg-gradient-to-r from-red-600 via-red-500 to-red-700 shadow-[0_0_20px_rgba(239,68,68,0.6)] tracking-wide transition-all duration-300 overflow-hidden"
+        <motion.a 
+          href="https://pages.razorpay.com/illuminati"
+          className="relative inline-block px-12 py-5 rounded-xl text-2xl font-extrabold text-white bg-gradient-to-r from-red-600 via-red-500 to-red-700 shadow-[0_0_20px_rgba(239,68,68,0.6)] tracking-wide transition-all duration-300 overflow-hidden cursor-pointer"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.6, duration: 0.8 }}
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
-          onClick={() => alert('Ticket booking will be available soon!')}
         >
           <span className="relative z-10">🎫 GET PASSES NOW 🎫</span>
           {/* Shiny hover overlay */}
           <span className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 hover:opacity-100 transition duration-500"></span>
-        </motion.button>
+        </motion.a>
 
       </motion.div>
     </section>
