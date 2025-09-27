@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           >
             <span className="text-2xl text-red-500">📷</span>
             <span className="text-lg font-semibold text-red-300">
-              @campuscartel
+              @campuscartel_bmsce
             </span>
           </motion.a>
           
@@ -100,11 +100,7 @@ const Footer: React.FC = () => {
                 The brotherhood awaits...
               </p>
             </div>
-            
-            <div className="text-gray-400 text-right">
-              <p className="text-sm">Powered by</p>
-              <p className="text-red-300 font-semibold">Modern Web Tech</p>
-            </div>
+          
           </div>
         </motion.div>
       </div>
