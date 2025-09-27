@@ -1,0 +1,98 @@
+/* Red and Black Theme - No Glowing Effects */
+
+/* Hero Title Styling */
+.hero-title {
+  background: linear-gradient(45deg, #DC143C, #B22222, #8B0000, #DC143C);
+  background-size: 400% 400%;
+  animation: gradientShift 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Button hover effects */
+.btn-crimson {
+  background: linear-gradient(45deg, #DC143C, #8B0000);
+  border: 2px solid #DC143C;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-crimson::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s;
+}
+
+.btn-crimson:hover::before {
+  left: 100%;
+}
+
+.btn-crimson:hover {
+  background: linear-gradient(45deg, #B22222, #DC143C);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(220, 20, 60, 0.4);
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+  position: relative;
+  background: linear-gradient(135deg, #1C1C1C, #000000);
+  border: 1px solid #333;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  border-color: #DC143C;
+  box-shadow: 0 10px 30px rgba(220, 20, 60, 0.3), 0 0 0 1px #DC143C;
+}
+
+/* Geometric patterns */
+.diamond-pattern {
+  background-image: 
+    linear-gradient(45deg, transparent 25%, rgba(220, 20, 60, 0.1) 25%, rgba(220, 20, 60, 0.1) 75%, transparent 75%),
+    linear-gradient(-45deg, transparent 25%, rgba(220, 20, 60, 0.1) 25%, rgba(220, 20, 60, 0.1) 75%, transparent 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* Scrollbar styling - Red theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #DC143C, #8B0000);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #B22222, #DC143C);
+}
+
+/* Text effects */
+.text-shadow-red {
+  text-shadow: 2px 2px 8px rgba(220, 20, 60, 0.5);
+}
+
+.border-gradient-red {
+  border-image: linear-gradient(45deg, #DC143C, #8B0000) 1;
+}

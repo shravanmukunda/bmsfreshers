@@ -1,0 +1,68 @@
+/* Modern Red & Black Theme */
+.hero-title {
+  background: linear-gradient(135deg, #DC143C, #B22222, #8B0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 900;
+}
+
+/* Clean button styling */
+.btn-primary {
+  background: linear-gradient(135deg, #DC143C, #B22222);
+  border: 2px solid #DC143C;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #B22222, #8B0000);
+  border-color: #B22222;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(220, 20, 60, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #DC143C;
+  color: #DC143C;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #DC143C;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Card styling */
+.card-modern {
+  background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.card-modern:hover {
+  transform: translateX(5px);
+  border-color: #DC143C;
+  box-shadow: -5px 0 15px rgba(220, 20, 60, 0.2);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #DC143C, #8B0000);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #B22222, #DC143C);
+}
