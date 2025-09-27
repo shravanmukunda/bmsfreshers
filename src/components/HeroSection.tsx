@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import illuminatiLogo from '../illuminati-logo.svg';
 
 const HeroSection: React.FC = () => {
-  const [showModal, setShowModal] = useState<boolean>(false);
   
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 z-10">
